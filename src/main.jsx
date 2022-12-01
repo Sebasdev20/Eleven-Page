@@ -11,7 +11,7 @@ import LoadingSpinner from "./components/LoadingSpinner/LoadingSpinner";
 import { UserContextProvider } from "./contexts/UserContext";
 
 axios.defaults.baseURL =
-  import.meta.env.VITE_APIENDPOINT || "eleven-page-api.up.railway.app/api/";
+  import.meta.env.VITE_APIENDPOINT || "eleven-page-api.up.railway.app/api";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
